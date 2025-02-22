@@ -1,9 +1,16 @@
-# Credit-Scoring
+## Кредитный скоринг
+
+Реализация модели кредитного скоринга
 
 ## Описание датасета
 
+
+| data/application_record.csv |
+|--------------------|
+
+| Feature | Description |
+|----------|----------|
 | ID | Client number |
-----------------------
 | CODE_GENDER	| Gender |
 | FLAG_OWN_CAR | Is there a car	|
 | FLAG_OWN_REALTY	| Is there a property	|
@@ -21,3 +28,19 @@
 | FLAG_EMAIL	| Is there an email	|
 | OCCUPATION_TYPE	| Occupation	|
 | CNT_FAM_MEMBERS	| Family size |
+
+
+| data/credit_record.csv |
+|--------------------|
+
+| Feature | Description |
+|----------|----------|
+| ID | Client number |
+| MONTHS_BALANCE	| Record month	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on |
+| STATUS	Status	| 0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month |
+
+[dataset on kaggle](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+
+## Преодобработка данных
+
+## Результаты 
