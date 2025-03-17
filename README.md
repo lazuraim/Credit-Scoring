@@ -41,8 +41,6 @@
 
 [dataset on kaggle](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
 
-## Преодобработка данных
-
 ## Результаты + интерпретация
 
 ## Статьи для вдохновения
