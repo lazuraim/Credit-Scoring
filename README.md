@@ -54,4 +54,6 @@
 
 [Три способа оценить данные - разбор каждого с нуля](https://dzen.ru/a/ZugQ6etOIHBDpnEM)
 
+[Что внутри черного ящика: понимаем работу ML-модели с помощью SHAP](https://habr.com/ru/companies/wunderfund/articles/739744/)
+
 [Логистическая регрессия. Теория и реализация. С нуля](https://habr.com/ru/articles/864890/)
